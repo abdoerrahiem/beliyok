@@ -1,4 +1,6 @@
-## ProShop Frontend
+## BeliYok Frontend
+
+### Created using reactjs
 
 ### `npm install`
 
