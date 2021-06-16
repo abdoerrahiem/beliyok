@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+main {
+  min-height: 80vh;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+th {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+td {
+  text-align: center;
+  font-size: 14px;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+
+.carousel-mod {
+  border-radius: 10px;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  line-height: 10px;
+}
+
+.carousel img {
+  height: 300px;
+  width: 300px;
+  padding: 30px;
+  margin: 50px 0 20px 0;
+  border-radius: 50%;
+}
+
+.carousel a {
+  margin: 0 auto;
+}
+
+.product-img {
+  /* height: 300px; */
+  /* border-radius: 10px; */
+  height: 240px;
+}
+
+.cart-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+}
+
+.logo-title {
+  font-family: 'Courgette', cursive;
+  font-size: 40px;
+}
+
+.navbar {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.badge {
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 1px 2px rgb(0 0 0 / 23%);
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+
+.search-box {
+  background-color: #fff;
+  width: 309px;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.search-box input {
+  border: none;
+  border-radius: 0;
+  flex: 1;
+  padding-left: 15px;
+}
+
+.search-box button {
+  border-radius: 0;
+  color: #fff;
+}
